@@ -4,6 +4,7 @@
   <title>Price Calculator</title>
 
   <link rel="stylesheet" type="text/css" href="assets/webPage.css">
+  <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
   <script src="assets/script/PriceCalc.js"></script>
 </head>
 <body>
@@ -16,12 +17,12 @@
     </div>
 
     <div>
-      <form id="budget" action="javascript:calculatePrice()">
+      <form id="budget">
         <label for="salary">What annual salary seems suitable for you?</label>
         <input type="text" id="salary" name="salary"/><br><br>
         <label for="days">How many days do you think it will take you to make the website?</label>
         <input type="text" id="days" name="days"/><br><br>
-        <input type="submit" value="Calculate your price!" id="budgetSubmit"><br><br>
+        <input type="button" value="Calculate your price!" id="budgetSubmit"><br><br>
         <label id="finalPrice"> ??? </label>
       </form>
     </div>
