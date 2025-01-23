@@ -1,0 +1,29 @@
+body {margin: 15%;
+    background-color: #81A1C9;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #b7315e;}
+
+#mainContents{
+    background-color: #C4D4E8;
+    padding: 5%;
+    border-width: 10px;
+    border-color: #435C7C;
+    border-style: groove;
+    grid-template-columns: 2fr 1fr;
+    display: grid;
+    align-items: center;
+}
+
+/* FORM STYLE */
+
+#budget input{margin: 10px;
+    background-color: #EAF0F7;
+}
+
+#budgetSubmit{padding: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    color: #b7315e;
+    }
+
+
