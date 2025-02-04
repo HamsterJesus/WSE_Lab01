@@ -38,14 +38,6 @@ app.get('/api/getPrice', function(req, res){
   console.log("API Response:", finalPrice);
 });
 
-app.use(express.static(dir, options));
-
-//404
-app.use((req, res, next) => { 
-  res.status(404).send( 
-      "<h1>SCRAM KID!</h1>");
-});
-
 //further database set up
 app.get('/api/storeQuote', function(req, res){
   res.send("Hello world!")
@@ -92,6 +84,19 @@ app.get('/api/storeQuote', function(req, res){
 });
 
 
+<<<<<<< HEAD
+=======
+run().catch(console.dir);
+
+app.use(express.static(dir, options));
+
+//404
+app.use((req, res, next) => { 
+  res.status(404).send( 
+      "<h1>SCRAM KID!</h1>");
+});
+
+>>>>>>> 000f53ac8ee04362c7331daaf76d2d58587bd81f
 
 app.listen(8080, function () {
     console.log('Listening on http://localhost:8080/');
