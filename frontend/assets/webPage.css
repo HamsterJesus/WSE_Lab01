@@ -20,7 +20,7 @@ body {margin: 15%;
     background-color: #EAF0F7;
 }
 
-#budgetSubmit{padding: 10px;
+.budgetSubmit{padding: 10px;
     cursor: pointer;
     font-weight: bold;
     color: #b7315e;
