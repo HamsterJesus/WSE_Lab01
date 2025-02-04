@@ -58,6 +58,15 @@ async function run(){
     console.log("starting db stuff")
 
     //test querys in theory
+    var dbo = client.db("mydb");
+    var myobj = {quoteName: n, salary: s, days: d};
+    await dbo.collection("quotes").insertOne(myobj, function(err, res){
+      if(err){
+        console.log(err);
+        throw err;
+      }
+      console.log("1 quote inserted")
+    })
     console.log("in theory db query!");
   } finally {
     await client.close();
