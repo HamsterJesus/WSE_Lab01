@@ -48,7 +48,7 @@ app.use((req, res, next) => {
 
 //further database set up
 const client = new MongoClient(uri);
-async function runInContext(){
+async function run(){
   try{
     await client.connect(); //connect to server
 
