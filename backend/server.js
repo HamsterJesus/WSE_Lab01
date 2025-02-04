@@ -48,7 +48,7 @@ app.use((req, res, next) => {
 
 //further database set up
 app.get('/api/storeQuote', function(req, res){
-  //res.send("Hello world!")
+  res.send("Hello world!")
   // Copied from front end
   var n = req.query.quoteName
   var s = req.query.salary;
