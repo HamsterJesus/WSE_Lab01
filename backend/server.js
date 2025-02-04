@@ -19,6 +19,7 @@ app.get('/api', function(req, res){
 
 app.get('/api/getPrice', function(req, res){
   // Copied from front end
+  var n = req.query.quoteName;
   var s = req.query.salary;
   var d = req.query.days;
   console.log("Calculating price")
