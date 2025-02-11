@@ -94,10 +94,6 @@ app.use((req, res, next) => {
       "<h1>SCRAM KID!</h1>");
 });
 
-<<<<<<< HEAD
-=======
-
->>>>>>> f339fce595a05df37f0cac05395e54cc481d4639
 app.listen(8080, function () {
     console.log('Listening on http://localhost:8080/');
 });

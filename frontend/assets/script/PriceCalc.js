@@ -26,7 +26,7 @@ function storeQuote() {
     var days = $('#days').val();
     var quoteName = $('#quoteName').val();
 
-    var url = "/api/getQuote?"+"quoteName="+quoteName+"salary="+salary+"&days="+days;
+    var url = "/api/getQuote?"+"quoteName="+quoteName+"&salary="+salary+"&days="+days;
     console.log(url)
 
     $.ajax(
