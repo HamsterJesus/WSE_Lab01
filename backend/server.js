@@ -4,7 +4,7 @@ var app = express();
 
 //mongo set up
 const{MongoClient} = require("mongodb");
-const uri = "mongodb://testUser:goblinson@127.0.0.1:27017"
+const uri = "mongodb://testUser:goblinson@127.0.0.1:27017/mydb"
 
 var options = {
     index: "index.html"
