@@ -84,9 +84,7 @@ app.get('/api/storeQuote', function(req, res){
 });
 
 
-<<<<<<< HEAD
-=======
-run().catch(console.dir);
+//run().catch(console.dir);
 
 app.use(express.static(dir, options));
 
@@ -96,7 +94,6 @@ app.use((req, res, next) => {
       "<h1>SCRAM KID!</h1>");
 });
 
->>>>>>> 000f53ac8ee04362c7331daaf76d2d58587bd81f
 
 app.listen(8080, function () {
     console.log('Listening on http://localhost:8080/');
